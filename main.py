@@ -39,10 +39,10 @@ class MainApp(QMainWindow, ui):
         self.clock_label.setText(current_time)
 
         api = f"https://api.openweathermap.org/data/2.5/forecast?lat={location.latitude}" \
-              f"&lon={location.longitude}&appid=517c0451b7c0c664ef4518cbdacbe8ff"
+              f"&lon={location.longitude}&appid=API-Key"
 
         api2 = f"https://api.openweathermap.org/data/2.5/weather?lat={location.latitude}" \
-               f"&lon={location.longitude}&appid=517c0451b7c0c664ef4518cbdacbe8ff"
+               f"&lon={location.longitude}&appid=API-Key"
 
         json_data = requests.get(api2).json()
         json_data2 = requests.get(api).json()
