@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>Images/Layer 6.png</file>
+  </qresource>
+</RCC>
